@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "418306320591",
+    "firebase_url": "https://wisata-bekasi-6708d-default-rtdb.firebaseio.com",
+    "project_id": "wisata-bekasi-6708d",
+    "storage_bucket": "wisata-bekasi-6708d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418306320591:android:6454c29844701c5263efba",
+        "android_client_info": {
+          "package_name": "com.example.BekasiTourFinderAPP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhYWeFKzQQDBZgbJneGM32he_beSSNbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418306320591:android:4589b9e0f0fde20e63efba",
+        "android_client_info": {
+          "package_name": "com.example.BekasiTourFinderAPP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhYWeFKzQQDBZgbJneGM32he_beSSNbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

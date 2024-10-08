@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image"
+        android:contentDescription="@string/image_description"/>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageDetail"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLocation"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDescription"
+        android:text="Waktu Perasional :"
+        android:padding="16dp"/>
+
+
+    <TextView
+        android:id="@+id/textOperationalHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDescription"
+        android:layout_toEndOf="@+id/jam"
+        android:layout_marginTop="16dp"
+        android:text="Jam" />
+
+    <TextView
+        android:id="@+id/tiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jam"
+        android:padding="16dp"
+        android:text="Tiket Masuk :"/>
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jam"
+        android:text="Harga"
+        android:layout_toEndOf="@+id/tiket"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiket"
+        android:layout_toEndOf="@id/telepon"
+        android:text="Telepon:"
+        />
+
+    <TextView
+        android:id="@+id/telepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPrice"
+        android:text="Telepon:"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonOpenMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat di Peta"
+        android:layout_below="@id/textPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+</RelativeLayout>
